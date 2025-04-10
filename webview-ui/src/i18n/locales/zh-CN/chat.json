@@ -1,5 +1,5 @@
 {
-	"greeting": "Roo 能为您做什么？",
+	"greeting": "Wukong 能为您做什么？",
 	"task": {
 		"title": "任务",
 		"seeMore": "展开",
@@ -83,7 +83,7 @@
 	"edit": "编辑...",
 	"forNextMode": "用于下一个模式",
 	"error": "错误",
-	"troubleMessage": "Roo遇到问题...",
+	"troubleMessage": "Wukong遇到问题...",
 	"apiRequest": {
 		"title": "API请求",
 		"failed": "API请求失败",
@@ -109,7 +109,7 @@
 		"current": "当前"
 	},
 	"instructions": {
-		"wantsToFetch": "Roo 想要获取详细指示以协助当前任务"
+		"wantsToFetch": "Wukong 想要获取详细指示以协助当前任务"
 	},
 	"fileOperations": {
 		"wantsToRead": "需要读取文件:",
@@ -124,8 +124,8 @@
 		"didViewTopLevel": "已查看目录文件列表:",
 		"wantsToViewRecursive": "需要查看目录所有文件:",
 		"didViewRecursive": "已查看目录所有文件:",
-		"wantsToViewDefinitions": "Roo想查看此目录中使用的源代码定义名称:",
-		"didViewDefinitions": "Roo已查看此目录中使用的源代码定义名称:",
+		"wantsToViewDefinitions": "Wukong想查看此目录中使用的源代码定义名称:",
+		"didViewDefinitions": "Wukong已查看此目录中使用的源代码定义名称:",
 		"wantsToSearch": "需要搜索内容: {{regex}}",
 		"didSearch": "已完成内容搜索: {{regex}}"
 	},
@@ -133,8 +133,8 @@
 	"response": "响应",
 	"arguments": "参数",
 	"mcp": {
-		"wantsToUseTool": "Roo想在{{serverName}} MCP上使用工具:",
-		"wantsToAccessResource": "Roo想访问{{serverName}} MCP服务上的资源:"
+		"wantsToUseTool": "Wukong想在{{serverName}} MCP上使用工具:",
+		"wantsToAccessResource": "Wukong想访问{{serverName}} MCP服务上的资源:"
 	},
 	"modes": {
 		"wantsToSwitch": "即将切换至{{mode}}模式",
@@ -143,11 +143,11 @@
 		"didSwitchWithReason": "已切换至{{mode}}模式（原因：{{reason}}）"
 	},
 	"subtasks": {
-		"wantsToCreate": "Roo想在<code>{{mode}}</code>模式下创建新子任务:",
-		"wantsToFinish": "Roo想完成此子任务"
+		"wantsToCreate": "Wukong想在<code>{{mode}}</code>模式下创建新子任务:",
+		"wantsToFinish": "Wukong想完成此子任务"
 	},
 	"questions": {
-		"hasQuestion": "Roo有一个问题:"
+		"hasQuestion": "Wukong有一个问题:"
 	},
 	"taskCompleted": "任务完成",
 	"shellIntegration": {
@@ -218,7 +218,7 @@
 		"hideButton": "隐藏公告"
 	},
 	"browser": {
-		"rooWantsToUse": "Roo想使用浏览器:",
+		"rooWantsToUse": "Wukong想使用浏览器:",
 		"consoleLogs": "控制台日志",
 		"noNewLogs": "(没有新日志)",
 		"screenshot": "浏览器截图",

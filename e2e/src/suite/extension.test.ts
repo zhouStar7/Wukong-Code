@@ -4,15 +4,15 @@ import * as vscode from "vscode"
 suite("Roo Code Extension", () => {
 	test("Commands should be registered", async () => {
 		const expectedCommands = [
-			"roo-cline.plusButtonClicked",
-			"roo-cline.mcpButtonClicked",
-			"roo-cline.historyButtonClicked",
-			"roo-cline.popoutButtonClicked",
-			"roo-cline.settingsButtonClicked",
-			"roo-cline.openInNewTab",
-			"roo-cline.explainCode",
-			"roo-cline.fixCode",
-			"roo-cline.improveCode",
+			"wk-code.plusButtonClicked",
+			"wk-code.mcpButtonClicked",
+			"wk-code.historyButtonClicked",
+			"wk-code.popoutButtonClicked",
+			"wk-code.settingsButtonClicked",
+			"wk-code.openInNewTab",
+			"wk-code.explainCode",
+			"wk-code.fixCode",
+			"wk-code.improveCode",
 		]
 
 		const commands = await vscode.commands.getCommands(true)

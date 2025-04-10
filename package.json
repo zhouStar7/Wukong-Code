@@ -1,9 +1,9 @@
 {
-	"name": "roo-cline",
-	"displayName": "Roo Code (prev. Roo Cline)",
+	"name": "wk-code",
+	"displayName": "Wukong Code",
 	"description": "A whole dev team of AI agents in your editor.",
 	"publisher": "RooVeterinaryInc",
-	"version": "3.11.10",
+	"version": "1.0.0",
 	"icon": "assets/icons/icon.png",
 	"galleryBanner": {
 		"color": "#617A91",
@@ -14,7 +14,7 @@
 		"node": "20.18.1"
 	},
 	"author": {
-		"name": "Roo Code"
+		"name": "Wukong"
 	},
 	"repository": {
 		"type": "git",
@@ -53,264 +53,249 @@
 	"contributes": {
 		"submenus": [
 			{
-				"id": "roo-code.contextMenu",
-				"label": "Roo Code"
+				"id": "wk-code.contextMenu",
+				"label": "Wukong Code"
 			},
 			{
-				"id": "roo-code.terminalMenu",
-				"label": "Roo Code"
+				"id": "wk-code.terminalMenu",
+				"label": "Wukong Code"
 			}
 		],
 		"viewsContainers": {
 			"activitybar": [
 				{
-					"id": "roo-cline-ActivityBar",
-					"title": "Roo Code",
+					"id": "wk-code-ActivityBar",
+					"title": "Wukong Code",
 					"icon": "assets/icons/icon.svg"
 				}
 			]
 		},
 		"views": {
-			"roo-cline-ActivityBar": [
+			"wk-code-ActivityBar": [
 				{
 					"type": "webview",
-					"id": "roo-cline.SidebarProvider",
+					"id": "wk-code.SidebarProvider",
 					"name": ""
 				}
 			]
 		},
 		"commands": [
 			{
-				"command": "roo-cline.plusButtonClicked",
+				"command": "wk-code.plusButtonClicked",
 				"title": "New Task",
 				"icon": "$(add)"
 			},
 			{
-				"command": "roo-cline.mcpButtonClicked",
+				"command": "wk-code.mcpButtonClicked",
 				"title": "MCP Servers",
 				"icon": "$(server)"
 			},
 			{
-				"command": "roo-cline.promptsButtonClicked",
+				"command": "wk-code.promptsButtonClicked",
 				"title": "Prompts",
 				"icon": "$(notebook)"
 			},
 			{
-				"command": "roo-cline.historyButtonClicked",
+				"command": "wk-code.historyButtonClicked",
 				"title": "History",
 				"icon": "$(history)"
 			},
 			{
-				"command": "roo-cline.popoutButtonClicked",
+				"command": "wk-code.popoutButtonClicked",
 				"title": "Open in Editor",
 				"icon": "$(link-external)"
 			},
 			{
-				"command": "roo-cline.settingsButtonClicked",
+				"command": "wk-code.settingsButtonClicked",
 				"title": "Settings",
 				"icon": "$(settings-gear)"
 			},
 			{
-				"command": "roo-cline.helpButtonClicked",
-				"title": "Documentation",
-				"icon": "$(question)"
-			},
-			{
-				"command": "roo-cline.openInNewTab",
+				"command": "wk-code.openInNewTab",
 				"title": "Open In New Tab",
-				"category": "Roo Code"
+				"category": "Wukong Code"
 			},
 			{
-				"command": "roo-cline.explainCode",
+				"command": "wk-code.explainCode",
 				"title": "Explain Code",
-				"category": "Roo Code"
+				"category": "Wukong Code"
 			},
 			{
-				"command": "roo-cline.fixCode",
+				"command": "wk-code.fixCode",
 				"title": "Fix Code",
-				"category": "Roo Code"
+				"category": "Wukong Code"
 			},
 			{
-				"command": "roo-cline.improveCode",
+				"command": "wk-code.improveCode",
 				"title": "Improve Code",
-				"category": "Roo Code"
+				"category": "Wukong Code"
 			},
 			{
-				"command": "roo-cline.addToContext",
+				"command": "wk-code.addToContext",
 				"title": "Add To Context",
-				"category": "Roo Code"
+				"category": "Wukong Code"
 			},
 			{
-				"command": "roo-cline.newTask",
+				"command": "wk-code.newTask",
 				"title": "New Task",
-				"category": "Roo Code"
+				"category": "Wukong Code"
 			},
 			{
-				"command": "roo-cline.terminalAddToContext",
+				"command": "wk-code.terminalAddToContext",
 				"title": "Add Terminal Content to Context",
 				"category": "Terminal"
 			},
 			{
-				"command": "roo-cline.terminalFixCommand",
+				"command": "wk-code.terminalFixCommand",
 				"title": "Fix This Command",
 				"category": "Terminal"
 			},
 			{
-				"command": "roo-cline.terminalExplainCommand",
+				"command": "wk-code.terminalExplainCommand",
 				"title": "Explain This Command",
 				"category": "Terminal"
 			},
 			{
-				"command": "roo-cline.terminalFixCommandInCurrentTask",
+				"command": "wk-code.terminalFixCommandInCurrentTask",
 				"title": "Fix This Command (Current Task)",
 				"category": "Terminal"
 			},
 			{
-				"command": "roo-cline.terminalExplainCommandInCurrentTask",
+				"command": "wk-code.terminalExplainCommandInCurrentTask",
 				"title": "Explain This Command (Current Task)",
 				"category": "Terminal"
 			},
 			{
-				"command": "roo-cline.setCustomStoragePath",
+				"command": "wk-code.setCustomStoragePath",
 				"title": "Set Custom Storage Path",
-				"category": "Roo Code"
+				"category": "Wukong Code"
 			},
 			{
-				"command": "roo-cline.focusInput",
+				"command": "wk-code.focusInput",
 				"title": "Focus Input Field",
-				"category": "Roo Code"
+				"category": "Wukong Code"
 			}
 		],
 		"menus": {
 			"editor/context": [
 				{
-					"submenu": "roo-code.contextMenu",
+					"submenu": "wk-code.contextMenu",
 					"group": "navigation"
 				}
 			],
-			"roo-code.contextMenu": [
+			"wk-code.contextMenu": [
 				{
-					"command": "roo-cline.addToContext",
+					"command": "wk-code.addToContext",
 					"group": "1_actions@1"
 				},
 				{
-					"command": "roo-cline.explainCode",
+					"command": "wk-code.explainCode",
 					"group": "1_actions@2"
 				},
 				{
-					"command": "roo-cline.fixCode",
+					"command": "wk-code.fixCode",
 					"group": "1_actions@3"
 				},
 				{
-					"command": "roo-cline.improveCode",
+					"command": "wk-code.improveCode",
 					"group": "1_actions@4"
 				}
 			],
 			"terminal/context": [
 				{
-					"submenu": "roo-code.terminalMenu",
+					"submenu": "wk-code.terminalMenu",
 					"group": "navigation"
 				}
 			],
-			"roo-code.terminalMenu": [
+			"wk-code.terminalMenu": [
 				{
-					"command": "roo-cline.terminalAddToContext",
+					"command": "wk-code.terminalAddToContext",
 					"group": "1_actions@1"
 				},
 				{
-					"command": "roo-cline.terminalFixCommand",
+					"command": "wk-code.terminalFixCommand",
 					"group": "1_actions@2"
 				},
 				{
-					"command": "roo-cline.terminalExplainCommand",
+					"command": "wk-code.terminalExplainCommand",
 					"group": "1_actions@3"
 				},
 				{
-					"command": "roo-cline.terminalFixCommandInCurrentTask",
+					"command": "wk-code.terminalFixCommandInCurrentTask",
 					"group": "1_actions@5"
 				},
 				{
-					"command": "roo-cline.terminalExplainCommandInCurrentTask",
+					"command": "wk-code.terminalExplainCommandInCurrentTask",
 					"group": "1_actions@6"
 				}
 			],
 			"view/title": [
 				{
-					"command": "roo-cline.plusButtonClicked",
+					"command": "wk-code.plusButtonClicked",
 					"group": "navigation@1",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == wk-code.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.promptsButtonClicked",
+					"command": "wk-code.promptsButtonClicked",
 					"group": "navigation@2",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == wk-code.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.mcpButtonClicked",
+					"command": "wk-code.mcpButtonClicked",
 					"group": "navigation@3",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == wk-code.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.historyButtonClicked",
+					"command": "wk-code.historyButtonClicked",
 					"group": "navigation@4",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == wk-code.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.popoutButtonClicked",
+					"command": "wk-code.popoutButtonClicked",
 					"group": "navigation@5",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == wk-code.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.settingsButtonClicked",
+					"command": "wk-code.settingsButtonClicked",
 					"group": "navigation@6",
-					"when": "view == roo-cline.SidebarProvider"
-				},
-				{
-					"command": "roo-cline.helpButtonClicked",
-					"group": "navigation@7",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == wk-code.SidebarProvider"
 				}
 			],
 			"editor/title": [
 				{
-					"command": "roo-cline.plusButtonClicked",
+					"command": "wk-code.plusButtonClicked",
 					"group": "navigation@1",
 					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
 				},
 				{
-					"command": "roo-cline.promptsButtonClicked",
+					"command": "wk-code.promptsButtonClicked",
 					"group": "navigation@2",
 					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
 				},
 				{
-					"command": "roo-cline.mcpButtonClicked",
+					"command": "wk-code.mcpButtonClicked",
 					"group": "navigation@3",
 					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
 				},
 				{
-					"command": "roo-cline.historyButtonClicked",
+					"command": "wk-code.historyButtonClicked",
 					"group": "navigation@4",
 					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
 				},
 				{
-					"command": "roo-cline.popoutButtonClicked",
+					"command": "wk-code.popoutButtonClicked",
 					"group": "navigation@5",
 					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
 				},
 				{
-					"command": "roo-cline.settingsButtonClicked",
+					"command": "wk-code.settingsButtonClicked",
 					"group": "navigation@6",
-					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
-				},
-				{
-					"command": "roo-cline.helpButtonClicked",
-					"group": "navigation@7",
 					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
 				}
 			]
 		},
 		"configuration": {
-			"title": "Roo Code",
+			"title": "Wukong Code",
 			"properties": {
 				"roo-cline.allowedCommands": {
 					"type": "array",

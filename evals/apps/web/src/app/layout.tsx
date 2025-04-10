@@ -1,3 +1,12 @@
+/*
+ * @Author: zhouxingyu zhouxingyu@trs.com.cn
+ * @Date: 2025-04-09 11:56:41
+ * @LastEditors: zhouxingyu zhouxingyu@trs.com.cn
+ * @LastEditTime: 2025-04-10 11:12:22
+ * @FilePath: \Wukong-Code\evals\apps\web\src\app\layout.tsx
+ * @Description:
+ * Copyright (c) 2025 by zhouxingyu@trs.com.cn, All Rights Reserved.
+ */
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 
@@ -11,7 +20,7 @@ const fontSans = Geist({ variable: "--font-sans", subsets: ["latin"] })
 const fontMono = Geist_Mono({ variable: "--font-mono", subsets: ["latin"] })
 
 export const metadata: Metadata = {
-	title: "Roo Code Evals",
+	title: "Wukong Code Evals",
 }
 
 export default function RootLayout({
